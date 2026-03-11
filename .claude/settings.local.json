@@ -5,7 +5,9 @@
       "Read(//mnt/skills/public/frontend-design/**)",
       "Bash(node -e \":*)",
       "Bash(python -c \":*)",
-      "WebFetch(domain:unpkg.com)"
+      "WebFetch(domain:unpkg.com)",
+      "Bash(curl -s \"https://unpkg.com/lucide-react@0.446.0/dist/umd/lucide-react.js\" -o /tmp/lucide-react-umd.js)",
+      "Read(//tmp/**)"
     ]
   }
 }
