@@ -4,7 +4,8 @@
       "Read(//mnt/skills/public/**)",
       "Read(//mnt/skills/public/frontend-design/**)",
       "Bash(node -e \":*)",
-      "Bash(python -c \":*)"
+      "Bash(python -c \":*)",
+      "WebFetch(domain:unpkg.com)"
     ]
   }
 }
